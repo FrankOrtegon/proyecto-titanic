@@ -4,6 +4,8 @@ class Preprocesador:
     """Simplifica los pasos de limpieza y transformación."""
 
     def preparar_datos(self, datos):
+        
+        print("Realiza procesamiento de los datos")
 
         # Copia de seguridad
         df = datos.copy()
